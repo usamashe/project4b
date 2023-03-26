@@ -1,0 +1,17 @@
+
+html, body, #root {
+    margin: 0;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #7642d0;
+    height: 80px;
+    border-radius: 3px;
+}
+::-webkit-scrollbar-track {
+    width: 8px;
+    background: #4b06c1;
+}
