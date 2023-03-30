@@ -17,7 +17,7 @@ const NavBar = () => {
         "#A800ff",
       ],
     },
-    timing: { duration: 5000, iterations: Infinity },
+    animationOptions: { duration: 5000, iterations: 50 },
   });
   const { ref: refW } = useWebAnimations({
     id: "charW",
@@ -32,7 +32,7 @@ const NavBar = () => {
         "#0079FF",
       ],
     },
-    timing: { duration: 5000, iterations: Infinity },
+    animationOptions: { duration: 5000, iterations: 50 },
   });
   const { ref: refE } = useWebAnimations({
     id: "charE",
@@ -47,7 +47,7 @@ const NavBar = () => {
         "#00F11D",
       ],
     },
-    timing: { duration: 5000, iterations: Infinity },
+    animationOptions: { duration: 5000, iterations: 50 },
   });
   const { ref: refR } = useWebAnimations({
     id: "charR",
@@ -62,15 +62,8 @@ const NavBar = () => {
         "#FFEF00",
       ],
     },
-    timing: { duration: 5000, iterations: Infinity },
+    animationOptions: { duration: 5000, iterations: 50 },
   });
-  // rgba(0-255, 0-255, 0-255, 0-1)
-  // rgb(0, 0, 0) = #000000, #000
-  // rgb(255, 255, 255) = #ffffff
-  // rgb(100, 100, 100) = #646464
-  // #RRGGBB
-  // Decimal: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
-  // Hexa-Decimal: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 1A, 1B, 1C, 1D, 1E, 1F, 20, ...
 
   const { ref: refT } = useWebAnimations({
     id: "charT",
@@ -85,7 +78,7 @@ const NavBar = () => {
         "#FF7F00",
       ],
     },
-    timing: { duration: 5000, iterations: Infinity },
+    animationOptions: { duration: 5000, iterations: 50 },
   });
   const { ref: refY } = useWebAnimations({
     id: "charY",
@@ -100,7 +93,7 @@ const NavBar = () => {
         "#FF0900",
       ],
     },
-    timing: { duration: 5000, iterations: Infinity },
+    animationOptions: { duration: 5000, iterations: 50 },
   });
 
   return (

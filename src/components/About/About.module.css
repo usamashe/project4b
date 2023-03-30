@@ -1,0 +1,41 @@
+.container {
+  background: linear-gradient(to right, #570090, #7522b6);
+  padding: 50px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.avatarContainer {
+  justify-self: center;
+  text-align: center;
+}
+
+.avatar {
+  border: 7px white double;
+  border-radius: 50%;
+  user-select: none;
+  pointer-events: none;
+  margin: auto;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.name {
+  display: inline;
+}
+
+.about {
+  padding: 0 2rem;
+}
+
+.title {
+  background: #570090;
+  width: fit-content;
+  padding: 5px 40px;
+  margin-bottom: 25px;
+  box-shadow: 3px 3px 10px #111111;
+}
+
+.aboutPara {
+  margin-bottom: 25px !important;
+}
